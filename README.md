@@ -2,7 +2,7 @@
 
 Proyek ini bertujuan untuk memperbaiki akurasi data persebaran koperasi desa di Indonesia terkhususnya provinsi kepulauan Bangka Belitung, melalui verifikasi lapangan dan pemetaan digital melalui google maps.
 
-#🎯 Problem Statement yang Disasar
+# Problem Statement yang Disasar
 Saat ini, data persebaran koperasi di website https://simkopdes.go.id/ sering kali tidak akurat. Banyak titik lokasi yang tidak sesuai, bahkan tidak terdaftar di layanan peta digital. Hal ini membuat koperasi terkesan kurang profesional. berdampingan dengan hal ini, jika lokasi koperasi tertera di peta digital maka koperasi akan lebih banyak diketahui keberadaannya oleh masyarakat sekitar, misalkan beliau adalah seorang yang baru melakukan perpindahan tempat tinggal. Dengan akurasi lokasi yang valid, kami membuka jalan bagi masyarakat untuk bisa menemukan, berinteraksi, dan bertransaksi langsung dengan koperasi terdekat
 
 # Deskripsi Solusi Teknis & Kebaruan Ide
