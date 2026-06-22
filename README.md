@@ -1,24 +1,28 @@
 # KopDes Maps
-Otomasi Inventaris & Transparansi Stok Koperasi Desa Berbasis Computer Vision
 
-💡 Latar Belakang (Problem)
-Koperasi Desa sering kali menghadapi tantangan transparansi pengelolaan aset yang berdampak pada ketidakpercayaan masyarakat. Selain itu, ketiadaan data stok real-time menyulitkan pengurus koperasi dalam mengambil keputusan bisnis (seperti pembelian barang dari supplier). Digitalisasi dan regenerasi sistem koperasi adalah langkah untuk mengubah serta meminimalir citra negatif yang ada.
+Proyek ini bertujuan untuk memperbaiki akurasi data persebaran koperasi desa di Indonesia terkhususnya provinsi kepulauan Bangka Belitung, melalui verifikasi lapangan dan pemetaan digital melalui google maps.
 
-🚀 Solusi (The Solution)
-AgroStock adalah solusi manajemen inventaris cerdas berbasis computer vision.
-Otomatisasi: Petugas cukup memindai stok barang kemasan dengan kamera smartphone.
-AI-Powered: Algoritma object detection akan mengenali, menghitung, dan mencatat stok secara otomatis ke database.
-Transparansi: Data inventaris divisualisasikan melalui dashboard publik agar masyarakat bisa memantau ketersediaan barang secara jujur dan terbuka.
-Efisiensi: Sinkronisasi real-time antara fisik barang dan data digital meminimalisir manipulasi data dan meningkatkan efisiensi operasional.
+#🎯 Problem Statement yang Disasar
+Saat ini, data persebaran koperasi di website https://simkopdes.go.id/ sering kali tidak akurat. Banyak titik lokasi yang tidak sesuai, bahkan tidak terdaftar di layanan peta digital. Hal ini membuat koperasi terkesan kurang profesional. berdampingan dengan hal ini, jika lokasi koperasi tertera di peta digital maka koperasi akan lebih banyak diketahui keberadaannya oleh masyarakat sekitar, misalkan beliau adalah seorang yang baru melakukan perpindahan tempat tinggal.
 
-## 🛠 Tech Stack
-* **Language:** TypeScript
-* **AI/Intelligence:** Google Gemini API (via AI Studio) & MediaPipe
-* **Database:** Firebase
-* **Frontend:** Web (React / Vite)
+#🚀 Deskripsi Solusi Teknis & Kebaruan Ide
+KopDes-Maps hadir untuk melakukan "bersih-bersih data" dan pemetaan:
+- Verifikasi langsung ke lokasi koperasi atau gerai koperasi untuk memastikan koordinat lokasi koperasi sesuai.
+- Mengkurasi informasi detail seperti produk unggulan, jam operasional, dan kontak pengurus.
+- Melaporkan kepihak yang sesuai untuk memperbaharui dashboard visualisasi persebaran koperasi yang aktif dan terverifikasi.
+- Memastikan setiap koperasi desa memiliki "alamat digital" yang valid di Google Maps dan di website simkopdes.go.id.
 
-📅 Roadmap Pengembangan
-Fase 1: Pengumpulan data (dataset) komoditas koperasi desa.
-Fase 2: Training model object detection untuk mengenali objek spesifik.
-Fase 3: Integrasi aplikasi mobile dengan dashboard transparansi publik.
-Fase 4: Uji coba (Pilot Project) di koperasi desa lokal.
+#🛠 Tech Stack
+- membuat kontribusi di google maps
+- menambahkan lokasi gerai koperasi ke google maps selaku peta digital
+- melakukan report detail kesalahan lokasi koperasi yang ada di website simkopdes.go.id kepada pihak yang sesuai
+- mengambil dokumentasi kegiatan untuk pelaporan dan untuk bahan konten kampanye
+
+## 📅 Roadmap Pengembangan
+1. **Fase 1:** Pendataan dan verifikasi lokasi koperasi di wilayah lokal (Kabupaten Bangka/Sekitar).
+2. **Fase 2:** mengoptimalkan Google Maps (menambahkan foto, jam buka, dan info produk koperasi).
+3. **Fase 3:** pelaporan penyesuaian lokasi koperasi pada website simkopdes.go.id yang menampilkan visualisasi persebaran koperasi desa.
+4. **Fase 4:** Kampanye digital agar masyarakat lebih tertarik berinteraksi dengan koperasi lokal.
+
+---
+*Proyek ini dikembangkan oleh tim "ri dobel ki" sebagai kontribusi dalam hackathon.simkopdes untuk ekosistem koperasi desa Indonesia.*
